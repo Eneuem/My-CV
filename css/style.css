@@ -31,6 +31,8 @@ h2
 {
     grid-column: 1 / 4;
     grid-row: 1;
+    place-items: center;
+    font-size: 2em;
 }
 .about
 {
@@ -60,13 +62,13 @@ h2
 .experience
 {
     grid-column: 1 / 4;
-    grid-row: 4;
+    grid-row: 5;
     text-align: left;
 }
 .portfolio 
 {
     grid-column: 1 / 4;
-    grid-row: 5;
+    grid-row: 6;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
@@ -97,7 +99,7 @@ h2
 .contact
 {
     grid-column: 1 / 4;
-    grid-row: 6;
+    grid-row: 4;
 }
 /* .portfolio figure {
     display: flex;
@@ -141,17 +143,17 @@ h2
     .about,
     .picture,
     .experience,
-    .portfolio {
+    .portfolio,
+    .contact
+     {
         grid-column: 1 / 2; 
         margin: 1em;
     }
     .about
     {
         grid-row: 3;
-        margin: 1em;
     }
     .picture {
         grid-row: 2; 
-        margin: 1em;
     }
 }
